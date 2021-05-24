@@ -208,9 +208,9 @@
 		<p>You can close de app start again and see your secrets are locally safe</p>
 	</slot>
     {:else if $state.identity}
-	<p>Autentication form</p>
+	<p>Authentication</p>
 	<form on:submit="{loginHandler}">
-		<input type="password" placeholder="Tu contraseña" bind:value="{passphrase}" on:input="{validatePassphrase}" bind:this={passphraseInput}/>
+		<input type="password" placeholder="Your password" bind:value="{passphrase}" on:input="{validatePassphrase}" bind:this={passphraseInput}/>
 		<input type="submit"/>
 	</form>
 	{:else}

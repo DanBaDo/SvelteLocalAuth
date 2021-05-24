@@ -5,4 +5,5 @@ export const authenticated = writable(false);
 
 export function logout () {
     authenticated.set(false);
+    secrets.set(null)
 }
