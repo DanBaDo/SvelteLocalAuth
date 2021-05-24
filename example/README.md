@@ -7,7 +7,6 @@ Silly app for storing secrets locally in your browser.
 Install the dependencies...
 
 ```bash
-cd svelte-app
 npm install
 ```
 
